@@ -1,2 +1,4 @@
-# phpunit-examples
-Examples with PHPUnit
+#PHPunit test for Compare full name
+
+>composer install
+>./vendor/bin/phpunit tests
