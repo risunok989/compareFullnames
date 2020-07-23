@@ -55,7 +55,6 @@ class Fullname
     {
         //get words from other fullname
         $owords = $ofname->getWords();
-        var_dump($owords);
         if(count($owords) == 0 || count($this->words) == 0)
         {
             return false;
